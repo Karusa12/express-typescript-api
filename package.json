@@ -1,0 +1,29 @@
+{
+  "name": "express-typescript-api",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karusa12/express-typescript-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Karusa12/express-typescript-api/issues"
+  },
+  "homepage": "https://github.com/Karusa12/express-typescript-api/#readme",
+  "author": "Karusa",
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/ws": "^8.18.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@types/express": "^5.0.1",
+    "express": "^5.1.0",
+    "ws": "^8.18.2"
+  }
+}
