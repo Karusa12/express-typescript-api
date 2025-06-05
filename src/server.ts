@@ -3,9 +3,12 @@ import path from 'path';
 import fs from 'fs';
 import { errorHandler } from './middlewares/errorHandler';
 import { websocketHandler } from './routes/websocket';
+import { generalLimiter } from './middlewares/rateLimiter';
 
 const app: Application = express();
 const PORT = process.env.PORT || 3000;
+
+// app.use(generalLimiter);
 
 app.use(express.json());
 
